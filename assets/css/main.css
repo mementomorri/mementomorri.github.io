@@ -1751,7 +1751,7 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: transparent;
 		}
 
 			.image.avatar48 img {
@@ -2217,6 +2217,13 @@ input, select, textarea {
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
+					background-color: #171515a3;
+					border-radius: 25px;
+				}
+
+				#main > section.dark p{
+					background-color:#171515a3;
+					border-radius: 30px;
 				}
 
 				#main > section.dark strong {
@@ -2234,7 +2241,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 13em 0;
 				background-size: cover;
 				background-position: center center;
 			}
@@ -2297,7 +2304,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 12.5em 0;
 			}
 
 	}
@@ -2563,7 +2570,7 @@ input, select, textarea {
 				}
 
 				#main section.cover {
-					padding: 4em 0;
+					padding: 12.5em 0;
 				}
 
 	}
@@ -2602,7 +2609,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 4em 0em;
+				padding: 12.5em 0em;
 			}
 
 				#main section.cover header {
