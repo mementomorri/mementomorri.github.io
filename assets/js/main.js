@@ -115,3 +115,22 @@
 				});
 
 })(jQuery);
+
+window.onload = function(){
+  $('[lang]').hide();
+	if (typeof(Storage) !== "undefined") {
+  var lang= localStorage.getItem("lang");
+  switch (lang) {
+      case "en":
+          $('[lang="en"]').show();
+      break;
+      case "ru":
+          $('[lang="ru"]').show();
+      break;
+      default:
+          $('[lang="ru"]').show();
+      }
+		} else {
+			$('[lang="ru"]').show();
+		}
+};
