@@ -66,6 +66,22 @@ input, select, textarea {
 	appearance: none;
 }
 
+#to-projects{
+  text-align:center;
+}
+
+#to-challenges{
+  text-align:center;
+}
+
+#button-red{
+  background-color: #d52349;
+}
+
+#button-grey{
+  background-color: #827a7c;
+}
+
 /* Basic */
 
 	html {
