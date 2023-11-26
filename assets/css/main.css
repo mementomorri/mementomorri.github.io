@@ -1592,6 +1592,10 @@ input, select, textarea {
 			margin: -4.5em 0 4.25em -3.5em;
 		}
 
+    .box .image.featured.roadmap{
+      padding:2.5em;
+    }
+
 		.box.post header {
 			padding-top: 1em;
 			margin: 0 0 2em 0;
@@ -1709,6 +1713,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
 		.image.centered {
 			display: block;
 			margin: 0 0 2em 0;
@@ -1749,6 +1754,12 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+
+/* Chakkenges */
+ 
+  ul.challenges{
+    list-style:none;
+  }
 
 /* Actions */
 
