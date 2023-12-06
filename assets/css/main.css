@@ -2077,6 +2077,10 @@ input, select, textarea {
 					border-top-color: #827a7c;
 				}
 
+      .icon.featured.alt3 {
+          padding: 1.75em; !important
+      }
+
 /* Page Wrapper */
 
 	#page-wrapper > section {
