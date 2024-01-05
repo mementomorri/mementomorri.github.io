@@ -1735,6 +1735,20 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 		}
 
+    		.image.avatar {
+			border-radius: 100%;
+      width: 6.25em;
+		}
+
+			.image.avatar:before {
+				display: none;
+			}
+
+			.image.avatar img {
+				border-radius: 100%;
+				width: 100%;
+			}
+
 /* List */
 
 	ul {
